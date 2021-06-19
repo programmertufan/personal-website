@@ -1,0 +1,202 @@
+*,body{
+
+    margin: 0;
+    padding: 0;
+}
+.half-width{
+width: 30%;
+margin: 2%;
+padding: 5%;
+float: left;
+
+}
+.half-width img{
+    width: 100%;
+    height: 100%;
+ 
+}
+#header{
+    background-image: url(./images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-image: linear-gradient(red,blue); */
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 350px;
+    padding-bottom: 150px;
+}
+
+.Dream{
+    height: 400px;
+    width: 100%;
+    padding-bottom: 100px;
+    background-image: url(./images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.latest-work{
+height: 300px;
+    padding-top: 2%;
+    width: 100%;
+    background-image: url(./images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+
+.one-third-width{
+    width: 20%;
+    margin: 3%; 
+    padding: 3%;
+    height: 50%;
+    float: left; 
+    /* box-shadow: 40px black; */
+    /* filter: drop-shadow(0 0 30px #333); */
+    transition: 0.3s;
+ 
+}
+.one-third-width:hover{
+    filter: drop-shadow(1px 8px 3px #333);
+    transform: translate(0, -10px);
+
+}
+.one-third-width img{
+    width: 100%;
+
+}
+.latest-work h3{
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+font-family: sans-serif;
+
+}
+hr{
+    visibility: hidden;
+}
+
+.bio{
+
+    color: rgb(39, 38, 38);
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.text{
+    font-size: 16px;
+    color: rgb(36, 29, 29);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+.downlaod-cv{
+padding: 15px;
+text-decoration: none;
+/* background-color: rgb(247, 104, 152); */
+background-image: linear-gradient(45deg,#EC5196,#EC4B75);
+border-radius: 7px;
+color: white;
+font-size: 20px;
+padding-left: 40px;
+padding-right: 40px;
+/* margin-top: 20px; */
+
+
+}
+.footer{
+    height: 500px;
+    background-image: url(./images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer p,h2,h4{    
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
+
+.messege{
+
+    background-color: #EC4F91;
+    width: 30%;
+    padding: 10px;
+  margin: 10px auto;
+  color:white;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 18px;
+}
+#messege1{
+    font-size: 13px;
+    color: white;
+}
+
+#messege2{
+    font-size: 20px;
+    color: white;
+}
+
+.footer h2{
+
+    padding: 50px;
+    padding-bottom: 100px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer p{
+
+    color: gray;
+}
+
+.header-p{
+    font-size: 18px;
+    color: gray;
+    padding-bottom: 22px;
+}
+.header-h1{
+
+    color: #fa85a8;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: sans-serif;
+   padding-bottom: 40px;
+    
+
+}
+
+.footer h4{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+
+.header-h3{
+    padding-bottom: 10px;
+    color: black;
+    font-size: 32px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-hire-me{
+
+color: white;
+/* background-color: ; */
+background-image: linear-gradient(to left,#EC5196,#EC4B75);
+text-decoration: none;
+padding: 15px;
+padding-left: 50px ;
+padding-right: 50px ;
+border-radius:8px;
+text-transform: uppercase;
+font-weight: 300;
+}
